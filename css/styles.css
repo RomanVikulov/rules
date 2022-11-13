@@ -1,10 +1,11 @@
 body {
-    padding-top: 80px;
-
-    font-family: 'Roboto', sans-serif;
-    background: var(--fon-color);
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(213, 22, 213, 0.5);
     color: var(--primary-text-color);
 }
+
+
 
 p,
 h1,
@@ -25,4 +26,71 @@ ol {
 
 ul {
     list-style: none;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+
+
+}
+
+.header-title {
+    top: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-title {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feature-title.title {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title__forbidden {
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.list-regulations {
+    display: flex;
+    font-weight: 700;
+    flex-direction: column;
+}
+
+.title-list {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.title-list__price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
