@@ -4,6 +4,7 @@ body {
     margin-left: 18px;
     font-family: 'Andika', sans-serif, 'Lato', sans-serif;
     line-height: 1.5;
+    font-size: 15px;
     background-color: rgba(238, 210, 238, 0.5);
 }
 
@@ -22,6 +23,10 @@ ul,
 ol {
     padding-left: 0;
     margin: 0;
+}
+
+li {
+    font-weight: 600;
 }
 
 img {
@@ -73,7 +78,7 @@ img {
 
 .feature-title.title {
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 5px;
     display: flex;
     justify-content: center;
@@ -82,6 +87,7 @@ img {
 }
 
 .title__forbidden {
+    margin-top: 20px;
     justify-content: center;
     align-items: center;
     color: red;
