@@ -1,7 +1,7 @@
 body {
     margin-top: 20px;
     font-family: 'Playfair Display', serif;
-    background-color: rgb(213, 22, 213, 0.5);
+    background-color: rgba(213, 186, 213, 0.5);
     color: var(--primary-text-color);
 }
 
