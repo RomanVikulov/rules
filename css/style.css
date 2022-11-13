@@ -105,7 +105,7 @@ img {
 }
 
 .title-list__price {
-    display: flex;
+
     flex-direction: row;
     justify-content: space-evenly;
 }
